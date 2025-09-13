@@ -1,6 +1,6 @@
-﻿namespace Basket.Models.DomainModels;
+﻿namespace Basket.Domain.Entities;
 
-public class PrimaryUserBasket : UserBasket
+public sealed class PrimaryUserBasket : UserBasket
 {
 
     public void AddItem(string slug, decimal price, string catalogItemName)

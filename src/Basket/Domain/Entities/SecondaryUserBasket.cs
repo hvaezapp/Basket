@@ -1,6 +1,6 @@
-﻿namespace Basket.Models.DomainModels;
+﻿namespace Basket.Domain.Entities;
 
-public class SecondaryUserBasket : UserBasket
+public sealed class SecondaryUserBasket : UserBasket
 {
     public override void AddItem(BasketCatalogItem primaryItem)
     {
