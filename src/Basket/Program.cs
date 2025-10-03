@@ -5,6 +5,7 @@ using Scalar.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.ConfigureDatabase();
+builder.ConfigureBroker();
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
