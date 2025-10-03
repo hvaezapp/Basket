@@ -1,4 +1,4 @@
-﻿namespace Basket;
+﻿namespace Basket.Shared;
 
 public class AppSettings
 {

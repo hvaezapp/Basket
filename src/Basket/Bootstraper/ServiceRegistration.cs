@@ -1,4 +1,5 @@
 ﻿using Basket.Infrastructure.Persistence.Context;
+using Basket.Shared;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
