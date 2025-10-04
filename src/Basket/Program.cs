@@ -1,9 +1,3 @@
-using Basket.Bootstraper;
-using Basket.Endpoints;
-using Basket.Infrastructure.Subscription.PriceChanged;
-using MassTransit;
-using Scalar.AspNetCore;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.ConfigureDatabase();
@@ -29,9 +23,9 @@ app.MapRemoveItemEndpoint();
 app.MapBasketItemsEndpoint();
 
 // simulate price changed event
-app.MapGet("/test/publish", (IPublishEndpoint publisher) =>
+app.MapGet("/price-changed-event", (IPublishEndpoint publisher) =>
 {
-    publisher.Publish(new PriceChangedEvent("string-2", 10_000));
+    publisher.Publish(new PriceChangedEvent("test-slug", 10_000));
 });
 
 

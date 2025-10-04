@@ -6,3 +6,7 @@ global using System.Reflection;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 global using Microsoft.AspNetCore.Mvc;
 global using Basket.Domain.Entities;
+global using Basket.Bootstraper;
+global using Basket.Endpoints;
+global using Basket.Infrastructure.Subscription.PriceChanged;
+global using Scalar.AspNetCore;
