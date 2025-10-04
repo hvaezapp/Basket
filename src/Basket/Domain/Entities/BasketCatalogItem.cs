@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Basket.Domain.Entities;
+﻿namespace Basket.Domain.Entities;
 
 public sealed class BasketCatalogItem
 {

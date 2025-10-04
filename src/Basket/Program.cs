@@ -1,5 +1,7 @@
 using Basket.Bootstraper;
 using Basket.Endpoints;
+using Basket.Infrastructure.Subscription.PriceChanged;
+using MassTransit;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,5 +27,12 @@ app.MapIncreaseQuantityEndpoint();
 app.MapDecreaseQuantityEndpoint();
 app.MapRemoveItemEndpoint();
 app.MapBasketItemsEndpoint();
+
+// simulate price changed event
+app.MapGet("/test/publish", (IPublishEndpoint publisher) =>
+{
+    publisher.Publish(new PriceChangedEvent("string-2", 10_000));
+});
+
 
 app.Run();

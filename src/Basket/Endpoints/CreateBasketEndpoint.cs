@@ -1,9 +1,4 @@
-﻿using Basket.Domain.Entities;
-using Basket.Infrastructure.Persistence.Context;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
-namespace Basket.Endpoints;
+﻿namespace Basket.Endpoints;
 
 public static class CreateBasketEndpoint
 {

@@ -1,5 +1,4 @@
 ﻿namespace Basket.Domain.Entities;
-
 public sealed class SecondaryUserBasket : UserBasket
 {
     public override void AddItem(BasketCatalogItem primaryItem)

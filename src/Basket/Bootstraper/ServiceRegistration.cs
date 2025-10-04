@@ -1,10 +1,4 @@
-﻿using Basket.Infrastructure.Persistence.Context;
-using Basket.Shared;
-using MassTransit;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-
-namespace Basket.Bootstraper;
+﻿namespace Basket.Bootstraper;
 
 public static class ServiceRegistration
 {

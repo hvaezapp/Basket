@@ -1,8 +1,4 @@
-﻿using Basket.Infrastructure.Persistence.Context;
-using MassTransit;
-using Microsoft.EntityFrameworkCore;
-
-namespace Basket.Infrastructure.Subscription.CatalogNameChanged;
+﻿namespace Basket.Infrastructure.Subscription.CatalogNameChanged;
 
 public class CatalogNameChangedConsumer(BasketDbContext dbContext) : IConsumer<CatalogNameChangedEvent>
 {

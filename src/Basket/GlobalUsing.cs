@@ -1,0 +1,8 @@
+﻿global using Basket.Infrastructure.Persistence.Context;
+global using Basket.Shared;
+global using MassTransit;
+global using Microsoft.EntityFrameworkCore;
+global using System.Reflection;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.AspNetCore.Mvc;
+global using Basket.Domain.Entities;

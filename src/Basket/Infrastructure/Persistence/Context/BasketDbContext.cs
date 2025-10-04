@@ -1,8 +1,4 @@
-﻿using Basket.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-
-namespace Basket.Infrastructure.Persistence.Context;
+﻿namespace Basket.Infrastructure.Persistence.Context;
 
 public class BasketDbContext(DbContextOptions<BasketDbContext> dbContextOptions)
     : DbContext(dbContextOptions)

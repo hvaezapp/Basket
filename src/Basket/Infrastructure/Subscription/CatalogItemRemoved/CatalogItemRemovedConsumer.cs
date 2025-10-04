@@ -1,8 +1,4 @@
-﻿using Basket.Infrastructure.Persistence.Context;
-using MassTransit;
-using Microsoft.EntityFrameworkCore;
-
-namespace Basket.Infrastructure.Subscription.CatalogItemRemoved;
+﻿namespace Basket.Infrastructure.Subscription.CatalogItemRemoved;
 
 public class CatalogItemRemovedConsumer(BasketDbContext dbContext) : IConsumer<CatalogItemRemovedEvent>
 {
