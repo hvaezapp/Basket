@@ -10,7 +10,7 @@ It provides efficient and scalable management of users’ shopping baskets, hand
 - **C#**
 - **.NET Core 9**
 - **ASP.NET Core Minimal API**
-- **RabbitMQ** — used for handling domain events such as:
+- **RabbitMQ** — used for handling events such as:
   - `PrimaryBasketCleanup`
   - `PriceChanged`
   - `CatalogNameChanged`
