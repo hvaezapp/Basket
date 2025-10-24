@@ -18,7 +18,7 @@ It provides efficient and scalable management of users’ shopping baskets, hand
 
 ---
 
-## 🔗 API Endpoints
+##  API Endpoints
 
 | Endpoint | Description |
 |-----------|-------------|
