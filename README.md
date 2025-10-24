@@ -30,3 +30,6 @@ It provides efficient and scalable management of users’ shopping baskets, hand
 | `MoveToNextEndpoint` | Moves items from the primary basket to the next basket |
 | `MoveToPrimaryEndpoint` | Moves items back to the primary basket |
 
+![](basket-scalar.png)
+
+
